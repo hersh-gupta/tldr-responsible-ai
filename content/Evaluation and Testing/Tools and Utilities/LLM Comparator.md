@@ -1,7 +1,23 @@
 # LLM Comparator: Visual Analytics Tool for Side-by-Side LLM Evaluation
 
 https://arxiv.org/abs/2402.10524
-https://ai.google.dev/responsible/docs/evaluation/llm_comparator
+
+<div class="rich-link-card-container"><a class="rich-link-card" href="https://ai.google.dev/responsible/docs/evaluation/llm_comparator" target="_blank">
+	<div class="rich-link-image-container">
+		<div class="rich-link-image" style="background-image: url('https://ai.google.dev/static/site-assets/images/share.png')">
+	</div>
+	</div>
+	<div class="rich-link-card-text">
+		<h1 class="rich-link-card-title">LLM Comparator  |  Responsible Generative AI Toolkit  |  Google AI for Developers</h1>
+		<p class="rich-link-card-description">
+		
+		</p>
+		<p class="rich-link-href">
+		https://ai.google.dev/responsible/docs/evaluation/llm_comparator
+		</p>
+	</div>
+</a></div>
+
 
 ## Overview
 LLM Comparator is a visual analytics tool developed by Google Research for conducting and analyzing automatic side-by-side evaluations of large language models (LLMs). The tool helps researchers and engineers understand when and why a model performs better or worse than a baseline model, and how their responses differ qualitatively.
