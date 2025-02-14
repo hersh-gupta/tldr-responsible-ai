@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     }, */
     locale: "en-US",
-    baseUrl: "https://hersh-gupta.github.io/tldr-responsible-ai",
+    baseUrl: "hersh-gupta.github.io/tldr-responsible-ai",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     generateSocialImages: false,
