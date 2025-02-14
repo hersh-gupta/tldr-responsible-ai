@@ -1,0 +1,19 @@
+Adapted from ["The Language of Trustworthy AI: An In-Depth Glossary of Terms"](https://docs.google.com/spreadsheets/d/e/2PACX-1vTRBYglcOtgaMrdF11aFxfEY3EmB31zslYI4q2_7ZZ8z_1lKm7OHtF0t4xIsckuogNZ3hRZAaDQuv_K/pubhtml). This resource is a summary of the terms found in the NIST glossary. 
+
+| Term | Definition |
+|------|------------|
+| Trustworthy AI | AI systems that are valid and reliable, safe, secure and resilient, accountable and transparent, explainable and interpretable, privacy-enhanced, and fair with harmful bias managed. |
+| Personal Data | Any information relating to an identified or identifiable natural person ('data subject'); including identifiers such as name, ID number, location data, online identifier, or factors specific to physical, physiological, genetic, mental, economic, cultural or social identity. |
+| Differential Privacy | A method for measuring how much information a computation reveals about an individual, based on randomized injection of \"noise\". Uses the concept of \"epsilon\" (ɛ) or \"privacy budget\" to determine noise levels. |
+| Counterfactual Fairness | A fairness metric checking whether a classifier produces the same result for one individual as it does for another who is identical except for sensitive attributes, helping surface potential bias. |
+| Post-hoc Explanation | Techniques to enhance interpretability of complex models through text explanations, visual explanations, local explanations, examples, simplification and feature relevance, covering common ways humans explain systems. |
+| Deep Learning | A family of machine learning techniques using complex algebraic circuits with tunable connection strengths organized in many layers, widely used for visual recognition, translation, speech processing, and image synthesis. |
+| Anonymization | Process of altering identifiable data to prevent individual identification, using techniques like suppression (removing identifiers), generalization (broadening values), and noise addition (switching values between records). |
+| Biometric Data | Personal data from technical processing of physical, physiological or behavioral characteristics that allow unique identification, such as facial images or fingerprint data. |
+| Model Card | Documentation accompanying trained ML models that provides benchmarked evaluation across different demographic groups, intended usage context, performance evaluation procedures, and other relevant information. |
+| Governance | Actions ensuring stakeholder needs are evaluated for balanced objectives, including direction-setting through prioritization and decision-making, and monitoring performance and compliance. For AI, may include policies on application development and deployment. |
+| Profiling | Automated processing of personal data to evaluate personal aspects, particularly to analyze or predict work performance, economic situation, health, preferences, interests, reliability, behavior, location or movements. |
+| Reinforcement Learning | Training method where algorithms learn suitable actions by maximizing rewarded behavior over time, often using simulated environments to reduce need for real-world data. |
+| Consent | Freely given, specific, informed and unambiguous indication of data subject's wishes, signified by statement or clear affirmative action, agreeing to personal data processing. |
+| Active Learning | Method allowing ML algorithms to specify test regions to improve accuracy by choosing new data points, observing outputs, and incorporating new pairs into training. Applied to neural networks, prediction functions, and clustering. |
+| Ethics | Set of moral principles governing individual or group conduct, dealing with what is good and bad and moral duty and obligation. In AI context, guides development and deployment of AI systems. 

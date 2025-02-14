@@ -8,15 +8,15 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Quartz 4.0",
+    pageTitle: "📖 tl;dr Responsible AI",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
-    analytics: {
+/*     analytics: {
       provider: "plausible",
-    },
+    }, */
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "https://hersh-gupta.github.io/tldr-responsible-ai",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     generateSocialImages: false,
@@ -24,32 +24,32 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
+        header: "DM Sans",
+        body: "DM Sans",
+        code: "DM Mono",
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#fbfbf8",
+          lightgray: "#e8eae3",
+          gray: "#b2b5ab",
+          darkgray: "#4b4f44",
+          dark: "#272a22",
+          secondary: "#147B58",      // The requested teal-green
+          tertiary: "#45997C",       // Lighter teal that complements secondary
+          highlight: "rgba(20, 123, 88, 0.15)",
+          textHighlight: "#45997C88",
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          light: "#1a1c16",
+          lightgray: "#272a22",
+          gray: "#6b7265",
+          darkgray: "#d4d7cf",
+          dark: "#f4f5f1",
+          secondary: "#45997C",      // Lighter version of the teal for dark mode
+          tertiary: "#147B58",       // Original teal as accent
+          highlight: "rgba(69, 153, 124, 0.15)",
+          textHighlight: "#147B5888",
         },
       },
     },
