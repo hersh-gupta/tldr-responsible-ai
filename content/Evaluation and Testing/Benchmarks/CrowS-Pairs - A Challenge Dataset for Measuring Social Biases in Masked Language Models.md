@@ -6,7 +6,6 @@ authors:
   - Rasika Bhalerao
   - Samuel R. Bowman
 year: "2020"
-venue: ArXiv
 link: https://arxiv.org/abs/2010.00133v1
 tags:
   - responsible-ai

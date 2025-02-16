@@ -1,7 +1,9 @@
 ---
 title: 
 authors: 
-year: 
+- Author 1
+- Author 2
+year: "2025"
 link: 
 tags:
   - RAI

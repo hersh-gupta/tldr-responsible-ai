@@ -1,7 +1,14 @@
 ---
 title: "BBQ: A Hand-Built Bias Benchmark for Question Answering"
 authors:
-  - Alicia Parrish, Angelica Chen, Nikita Nangia, Vishakh Padmakumar, Jason Phang, Jana Thompson, Phu Mon Htut, Samuel R. Bowman
+  - Alicia Parrish
+  - Angelica Chen
+  - Nikita Nangia
+  - Vishakh Padmakumar
+  - Jason Phang
+  - Jana Thompson
+  - Phu Mon Htut
+  - Samuel R. Bowman
 year: "2022"
 link: https://github.com/nyu-mll/BBQ/tree/main
 tags:
