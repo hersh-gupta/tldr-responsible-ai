@@ -20,6 +20,7 @@ import MobileOnly from "./MobileOnly"
 import RecentNotes from "./RecentNotes"
 import Breadcrumbs from "./Breadcrumbs"
 import Comments from "./Comments"
+import AdditionalMeta from "./AdditionalMeta"
 
 export {
   ArticleTitle,
@@ -30,6 +31,7 @@ export {
   Head,
   PageTitle,
   ContentMeta,
+  AdditionalMeta,
   Spacer,
   TableOfContents,
   Explorer,

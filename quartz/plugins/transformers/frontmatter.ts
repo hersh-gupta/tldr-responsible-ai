@@ -73,6 +73,9 @@ export const FrontMatter: QuartzTransformerPlugin<Partial<Options>> = (userOpts)
 
             const socialImage = coalesceAliases(data, ["socialImage", "image", "cover"])
 
+            const links = coalesceAliases(data, ["links", "link", "url"])
+            const authors = coalesceAliases(data, ["authors", "author"])
+
             const created = coalesceAliases(data, ["created", "date"])
             if (created) data.created = created
             const modified = coalesceAliases(data, [
@@ -86,6 +89,9 @@ export const FrontMatter: QuartzTransformerPlugin<Partial<Options>> = (userOpts)
             if (published) data.published = published
 
             if (socialImage) data.socialImage = socialImage
+
+            if (links) data.links = links
+            if (authors) data.authors = authors
 
             // fill in frontmatter
             file.data.frontmatter = data as QuartzPluginData["frontmatter"]
@@ -103,6 +109,8 @@ declare module "vfile" {
     } & Partial<{
         tags: string[]
         aliases: string[]
+        authors: string[]
+        links: string
         modified: string
         created: string
         published: string
