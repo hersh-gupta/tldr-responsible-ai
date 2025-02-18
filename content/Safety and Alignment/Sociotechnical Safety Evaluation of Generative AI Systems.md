@@ -18,8 +18,9 @@ year: "2023"
 link: https://arxiv.org/abs/2310.11986
 tags:
   - paper-notes
-  - safety/evaluation
   - responsible-ai
+  - safety
+  - evaluation
 ---
 # Summary
 This paper presents a framework for evaluating safety risks in generative AI systems through a sociotechnical lens. The authors argue that current capability-focused evaluations are insufficient and propose a three-layered approach that considers:

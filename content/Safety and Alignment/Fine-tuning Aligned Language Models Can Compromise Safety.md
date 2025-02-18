@@ -13,9 +13,9 @@ link: https://arxiv.org/abs/2310.03693
 project_url: https://github.com/LLM-Tuning-Safety/LLMs-Finetuning-Safety
 tags:
   - fine-tuning
-  - LLM-safety
   - red-teaming
   - responsible-ai
+  - safety
 ---
 ## Summary
 This paper demonstrates that fine-tuning aligned language models can compromise their safety guardrails, even when users don't intend to do harm. The authors identify three levels of risk:

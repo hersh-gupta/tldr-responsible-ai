@@ -18,7 +18,7 @@ link: https://arxiv.org/abs/2406.11757
 tags:
   - paper-notes
   - red-teaming
-  - llm-safety
+  - safety
   - methodology
 ---
 ## Summary
