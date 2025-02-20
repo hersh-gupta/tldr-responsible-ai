@@ -9,15 +9,15 @@ tags:
   - RAI
   - paper
 ---
-## Summary
+# Summary
 
-## Key Contributions
-## Method
+# Key Contributions
+# Method
 
-## Results
+# Results
 
-## Takeaways
-### Strengths
-### Limitations
+# Takeaways
+## Strengths
+## Limitations
 
-## Notable References
+# Notable References
