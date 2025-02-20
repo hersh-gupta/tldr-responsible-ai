@@ -59,7 +59,7 @@ The field lacks a standardized evaluation framework to assess automated red team
 - No current attack or defense is uniformly effective - all have weaknesses
 - LLM robustness is independent of model size within model families
 - Training procedures matter more than model size for robustness
-- R2D2 adversarial training achieves state-of-the-art robustness against GCG attacks
+- R2D2 adversarial training achieves state-of-the-art robustness against [[Red Teaming Methods in AI Security|GCG attacks]]
 - Higher attack success rates on contextual behaviors vs standard behaviors
 
 ## Takeaways
