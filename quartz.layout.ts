@@ -28,10 +28,23 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.Explorer(),
+    Component.Explorer({
+      mapFn: (node) => {
+        // dont change name of root node
+        if (node.depth > 0) {
+          // set emoji for file/folder
+          if (node.file) {
+            node.displayName = "📄 " + node.displayName
+          } else {
+            node.displayName = "📁 " + node.displayName
+          }
+        }
+      },
+      folderDefaultState: "collapsed"
+    }),
   ],
   right: [
-    Component.Graph(),
+    /* Component.Graph(), */
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],
