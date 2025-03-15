@@ -5,7 +5,9 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [
+    Component.RecentNotes({ title: "Recent", showTags: false, limit: 5 })
+  ],
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/hersh-gupta/tldr-responsible-ai",
@@ -21,7 +23,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.AdditionalMeta(),
-    Component.TagList(),
+    Component.TagList()
   ],
   left: [
     Component.PageTitle(),
@@ -46,7 +48,7 @@ export const defaultContentPageLayout: PageLayout = {
   right: [
     /* Component.Graph(), */
     Component.DesktopOnly(Component.TableOfContents()),
-    Component.Backlinks(),
+    Component.Backlinks()
   ],
 }
 
