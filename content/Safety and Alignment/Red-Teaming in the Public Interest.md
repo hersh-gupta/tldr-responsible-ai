@@ -14,6 +14,7 @@ tags:
   - red-teaming
   - public-interest
   - engagement
+  - report
 ---
 ## Executive Summary
 
@@ -36,7 +37,8 @@ This report, "Red-Teaming in the Public Interest," from [Data & Society](datasoc
 
 - **What is red-teaming**: Practitioners disagree about definitions, with ongoing \"boundary-work\" between:
   - Interactive prompting focused on sociotechnical harms (often criticized as not \"real\" red-teaming)
-  - Traditional security red-teaming methods (simulations, vulnerability probes, alternative analysis)
+  - Adversariality: Traditional security red-teaming methods (simulations, vulnerability probes, alternative analysis)
+	  - 
   
 - **When to do red-teaming**: Most practitioners believe red-teaming is most effective before model deployment but after other assessments are complete
 
