@@ -21,8 +21,7 @@ tags:
   - benchmark
 ---
 # Summary
-SAFEARENA is the first benchmark designed specifically to evaluate the safety of autonomous web agents. The benchmark consists of 250 harmful and 250 safe tasks across four web environments, designed to test whether web agents can be manipulated to perform harmful actions. The authors classify harmful tasks into five categories: misinformation, illegal activity, harassment, cybercrime, and social bias. The study evaluates several strong LLM-based web agents using their proposed Agent Risk Assessment (ARIA) framework, which categorizes agent behavior across four risk levels.
-
+SAFEARENA is the first benchmark designed specifically to evaluate the safety of autonomous web agents. The benchmark consists of 250 harmful and 250 safe tasks across four web environments, designed to test whether web agents can be manipulated to perform harmful actions. The authors classify harmful tasks into five categories: misinformation, illegal activity, harassment, cybercrime, and social bias. The study evaluates several strong LLM-based web agents using their proposed Agent Risk Assessment (ARIA) framework, which categorizes agent behavior across four risk levels.  
 # Key Contributions
 1. Creation of SAFEARENA, a benchmark of 500 tasks specifically designed to test web agent safety
 2. Development of the Agent Risk Assessment (ARIA) framework for evaluating harmful web agent behavior

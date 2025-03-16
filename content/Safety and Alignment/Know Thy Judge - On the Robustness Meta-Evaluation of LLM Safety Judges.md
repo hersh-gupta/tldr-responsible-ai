@@ -15,8 +15,7 @@ tags:
   - LLM-as-judge
 ---
 # Summary
-This paper investigates the robustness of LLM-based safety judges, which are critical components for ensuring the safety of AI systems. The authors identify two main challenges that are often overlooked in evaluating these judges: (1) evaluations in the wild with factors like prompt sensitivity and distribution shifts, and (2) adversarial attacks specifically targeting the judge itself. Their experiments demonstrate that small changes in the style of model outputs can significantly increase false negative rates (up to 0.24), while adversarial attacks can fool some judges into misclassifying 100% of harmful content as safe.
-
+This paper investigates the robustness of LLM-based safety judges, which are critical components for ensuring the safety of AI systems. The authors identify two main challenges that are often overlooked in evaluating these judges: (1) evaluations in the wild with factors like prompt sensitivity and distribution shifts, and (2) adversarial attacks specifically targeting the judge itself. Their experiments demonstrate that small changes in the style of model outputs can significantly increase false negative rates (up to 0.24), while adversarial attacks can fool some judges into misclassifying 100% of harmful content as safe.  
 # Key Contributions
 - Highlights a critical gap in how safety judges are evaluated, emphasizing the need for more robust meta-evaluation frameworks
 - Demonstrates that style variations in model responses can significantly impact judge performance without changing the underlying safety status

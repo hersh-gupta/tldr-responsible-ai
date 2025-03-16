@@ -18,8 +18,7 @@ tags:
   - LLM
 ---
 # Summary
-AGENT-SAFETYBENCH is a comprehensive benchmark designed to evaluate the safety of LLM agents in interactive environments. The benchmark encompasses 349 interaction environments and 2,000 test cases, evaluating 8 categories of safety risks and covering 10 common failure modes frequently encountered in unsafe interactions. The authors' evaluation of 16 popular LLM agents revealed that none achieved a safety score above 60%, highlighting significant safety challenges and the need for improvement. Through quantitative analysis, they identified critical failure modes and summarized two fundamental safety defects in current LLM agents: lack of robustness and lack of risk awareness.
-
+AGENT-SAFETYBENCH is a comprehensive benchmark designed to evaluate the safety of LLM agents in interactive environments. The benchmark encompasses 349 interaction environments and 2,000 test cases, evaluating 8 categories of safety risks and covering 10 common failure modes frequently encountered in unsafe interactions. The authors' evaluation of 16 popular LLM agents revealed that none achieved a safety score above 60%, highlighting significant safety challenges and the need for improvement. Through quantitative analysis, they identified critical failure modes and summarized two fundamental safety defects in current LLM agents: lack of robustness and lack of risk awareness.  
 # Key Contributions
 - A comprehensive agent safety benchmark with 349 environments and 2,000 test cases
 - Coverage of 8 categories of safety risks and 10 representative failure modes
