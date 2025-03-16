@@ -21,8 +21,7 @@ tags:
 ---
 # Summary
 
-This paper provides a concise and practical overview of red teaming techniques for Large Language Models (LLMs), structured to describe a multi-component system end-to-end. The authors highlight the importance of proactively attacking LLMs to identify vulnerabilities before deployment, complementing defensive safety approaches. The paper covers various attack methods, evaluation strategies, and metrics for assessing experimental outcomes, along with available software packages and resources. The authors present a comprehensive framework that helps organizations anticipate and safeguard against potential threats to their LLM-supported systems.
-
+This paper provides a concise and practical overview of red teaming techniques for Large Language Models (LLMs), structured to describe a multi-component system end-to-end. The authors highlight the importance of proactively attacking LLMs to identify vulnerabilities before deployment, complementing defensive safety approaches. The paper covers various attack methods, evaluation strategies, and metrics for assessing experimental outcomes, along with available software packages and resources. The authors present a comprehensive framework that helps organizations anticipate and safeguard against potential threats to their LLM-supported systems.  
 # Key Contributions
 - Provides a structured and practical overview of LLM red teaming components
 - Categorizes and explains various attack methods and strategies

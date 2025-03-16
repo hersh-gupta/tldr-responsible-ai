@@ -25,8 +25,7 @@ WildGuard is an open-source, lightweight moderation tool for LLM safety that add
 2. Detecting safety risks in model responses
 3. Determining model refusal rates
 
-The authors create WildGuardMix, a large-scale dataset with 92K labeled examples covering both direct prompts and adversarial jailbreaks, paired with various refusal and compliance responses. WildGuard outperforms existing open-source safety moderation tools across all three tasks and sometimes exceeds GPT-4 performance. When deployed in an LLM interface, it reduces the success rate of jailbreak attacks from 79.8% to 2.4%.
-
+The authors create WildGuardMix, a large-scale dataset with 92K labeled examples covering both direct prompts and adversarial jailbreaks, paired with various refusal and compliance responses. WildGuard outperforms existing open-source safety moderation tools across all three tasks and sometimes exceeds GPT-4 performance. When deployed in an LLM interface, it reduces the success rate of jailbreak attacks from 79.8% to 2.4%.  
 # Key Contributions
 - Creation of WildGuard, a unified multi-task moderation tool for LLM safety
 - Development of WildGuardMix dataset (92K examples), which includes WildGuardTrain (87K examples) and WildGuardTest (5K human-annotated examples)
