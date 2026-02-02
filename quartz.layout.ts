@@ -31,6 +31,32 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Search(),
     Component.Darkmode(),
     Component.Explorer({
+      sortFn: (a, b) => {
+        // Folders first, then files
+        if (!a.file && !b.file) {
+          // Both folders: sort alphabetically
+          return a.displayName.localeCompare(b.displayName, undefined, {
+            numeric: true,
+            sensitivity: "base",
+          })
+        }
+        if (a.file && b.file) {
+          // Both files: sort by date (newest first), then alphabetically
+          // Note: Quartz maps frontmatter 'date' to 'created'
+          const dateA = a.file?.frontmatter?.created
+            ? new Date(a.file.frontmatter.created as string).getTime()
+            : 0
+          const dateB = b.file?.frontmatter?.created
+            ? new Date(b.file.frontmatter.created as string).getTime()
+            : 0
+          if (dateA !== dateB) {
+            return dateB - dateA // Descending (newest first)
+          }
+          return a.displayName.localeCompare(b.displayName)
+        }
+        // Folders before files
+        return a.file ? 1 : -1
+      },
       mapFn: (node) => {
         // dont change name of root node
         if (node.depth > 0) {
@@ -42,6 +68,7 @@ export const defaultContentPageLayout: PageLayout = {
           }
         }
       },
+      order: ["filter", "sort", "map"], // Sort before adding emojis
       folderDefaultState: "collapsed"
     }),
   ],
